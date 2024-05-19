@@ -14,7 +14,7 @@
 				<!-- form -->
 				<!-- В атрибутах for, id, name прописуємо так, як прописані змінні в Entity-класі,
                 оскільки Hibernate розуміє саме такий напис -->
-				<form action="${pageContext.request.contextPath}/add-user" method="post">
+				<form action="${pageContext.request.contextPath}/add-contact" method="post">
 					<div>
 						<label for="firstName"><span style="font-size:12px;">First name</span></label>
 						<input type="text" class="form-control fw-light" id="firstName" name="firstName"
@@ -31,7 +31,7 @@
 							   placeholder="Phone..." required pattern="^\+?\d{10,15}$" title="Please enter a valid phone number">
 					</div>
 					<div class="container text-center mb-4"><br>
-						<a href="${pageContext.request.contextPath}/users" class="btn btn-outline-primary btn-sm">Back</a>
+						<a href="${pageContext.request.contextPath}/contacts" class="btn btn-outline-primary btn-sm">Back</a>
 						&nbsp;&nbsp;
 						<button type="submit" class="btn btn-primary btn-sm">Add</button>
 					</div>

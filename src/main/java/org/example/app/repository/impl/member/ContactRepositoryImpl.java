@@ -1,6 +1,6 @@
 package org.example.app.repository.impl.member;
 
-import org.example.app.entity.User;
+import org.example.app.entity.Contact;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.query.MutationQuery;
@@ -13,29 +13,29 @@ import java.util.Optional;
 
 // @Repository - анотування класів репозиторіїв.
 @Repository
-public class UserRepositoryImpl implements UserRepository {
+public class ContactRepositoryImpl implements ContactRepository {
 
     @Autowired
     private SessionFactory sessionFactory;
 
     @Override
-    public boolean create(User user) {
+    public boolean create(Contact contact) {
         Session session = sessionFactory.getCurrentSession();
-        String hql = "INSERT INTO User (firstName, lastName, phone) " +
+        String hql = "INSERT INTO Contact (firstName, lastName, phone) " +
                 "VALUES (:firstName, :lastName, :phone)";
         MutationQuery query = session.createMutationQuery(hql);
-        query.setParameter("firstName", user.getFirstName());
-        query.setParameter("lastName", user.getLastName());
-        query.setParameter("phone", user.getPhone());
+        query.setParameter("firstName", contact.getFirstName());
+        query.setParameter("lastName", contact.getLastName());
+        query.setParameter("phone", contact.getPhone());
         return query.executeUpdate() > 0;
     }
 
     @Override
-    public Optional<List<User>> fetchAll() {
+    public Optional<List<Contact>> fetchAll() {
         try {
             Session session = sessionFactory.getCurrentSession();
-            List<User> list = session.createQuery("FROM User",
-                    User.class).list();
+            List<Contact> list = session.createQuery("FROM Contact",
+                    Contact.class).list();
             return Optional.of(list);
         } catch (Exception e) {
             return Optional.empty();
@@ -43,17 +43,17 @@ public class UserRepositoryImpl implements UserRepository {
     }
 
     @Override
-    public boolean update(Long id, User user) {
+    public boolean update(Long id, Contact contact) {
         try {
             Session session = sessionFactory.getCurrentSession();
-            String hql = "UPDATE User SET firstName = :firstName, " +
+            String hql = "UPDATE Contact SET firstName = :firstName, " +
                     "lastName = :lastName, " +
                     "phone = :phone " +
                     "WHERE id = :id";
             MutationQuery query = session.createMutationQuery(hql);
-            query.setParameter("firstName", user.getFirstName());
-            query.setParameter("lastName", user.getLastName());
-            query.setParameter("phone", user.getPhone());
+            query.setParameter("firstName", contact.getFirstName());
+            query.setParameter("lastName", contact.getLastName());
+            query.setParameter("phone", contact.getPhone());
             query.setParameter("id", id);
             query.executeUpdate();
             return true;
@@ -66,7 +66,7 @@ public class UserRepositoryImpl implements UserRepository {
     public boolean delete(Long id) {
         try {
             Session session = sessionFactory.getCurrentSession();
-            User member = session.byId(User.class).load(id);
+            Contact member = session.byId(Contact.class).load(id);
             session.remove(member);
             return true;
         } catch (Exception e) {
@@ -75,12 +75,12 @@ public class UserRepositoryImpl implements UserRepository {
     }
 
     @Override
-    public Optional<User> fetchById(Long id) {
-        Optional<User> optional;
+    public Optional<Contact> fetchById(Long id) {
+        Optional<Contact> optional;
         try {
             Session session = sessionFactory.getCurrentSession();
-            String hql = "FROM User m WHERE m.id = :id";
-            Query<User> query = session.createQuery(hql, User.class);
+            String hql = "FROM Contact m WHERE m.id = :id";
+            Query<Contact> query = session.createQuery(hql, Contact.class);
             query.setParameter("id", id);
             optional = query.uniqueResultOptional();
             return optional;

@@ -1,8 +1,8 @@
 package org.example.app.service.impl.member;
 
 import jakarta.transaction.Transactional;
-import org.example.app.entity.User;
-import org.example.app.repository.impl.member.UserRepository;
+import org.example.app.entity.Contact;
+import org.example.app.repository.impl.member.ContactRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,41 +14,41 @@ import java.util.Optional;
 // @Transactional застосовується до сервісного шару
 // для підтримки транзакцій.
 @Service
-public class UserServiceImpl implements UserService {
+public class ContactServiceImpl implements ContactService {
 
     @Autowired
-    UserRepository repository;
+    ContactRepository repository;
 
     @Override
     @Transactional
-    public boolean create(User user) {
-        return repository.create(user);
+    public boolean create(Contact contact) {
+        return repository.create(contact);
     }
 
     @Override
     @Transactional
-    public List<User> fetchAll() {
+    public List<Contact> fetchAll() {
         return repository.fetchAll()
                 .orElse(Collections.emptyList());
     }
 
     @Override
     @Transactional
-    public User fetchById(Long id) {
+    public Contact fetchById(Long id) {
         return repository.fetchById(id)
                 .orElse(null);
     }
 
     @Override
     @Transactional
-    public boolean update(Long id, User user) {
-        return repository.update(id, user);
+    public boolean update(Long id, Contact contact) {
+        return repository.update(id, contact);
     }
 
     @Override
     @Transactional
     public boolean delete(Long id) {
-        Optional<User> optional = repository.fetchById(id);
+        Optional<Contact> optional = repository.fetchById(id);
         if (optional.isPresent())
             return repository.delete(id);
         else return false;

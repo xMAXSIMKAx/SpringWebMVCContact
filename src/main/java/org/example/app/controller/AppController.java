@@ -9,7 +9,7 @@ public class AppController {
 
     @RequestMapping("/home")
     public String home(Model model) {
-        model.addAttribute("title", "Users Club");
+        model.addAttribute("title", "Contacts Club");
         return "home";
     }
 }

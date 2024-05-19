@@ -4,7 +4,7 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title><c:out value="${title}">Users Club</c:out></title>
+<title><c:out value="${title}">Contacts Club</c:out></title>
 <link rel='shortcut icon' href='./resources/icons/favicon.ico'>
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"

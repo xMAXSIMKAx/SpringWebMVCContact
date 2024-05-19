@@ -6,12 +6,12 @@
     <a class="navbar-brand fw-bold" style="color: white;">
       <img src="./resources/icons/stack-of-books.png" alt="Logo"
       width="32" height="36" class="d-inline-block align-text-top">
-      Users Club
+      Contacts Club
     </a>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link" href="./home" style="color: white;">Home</a>
-        <a class="nav-link" href="./users"style="color: white;">Users</a>
+        <a class="nav-link" href="./contacts"style="color: white;">Contacts</a>
       </div>
     </div>
   </div>

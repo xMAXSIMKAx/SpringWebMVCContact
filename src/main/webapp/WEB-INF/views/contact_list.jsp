@@ -13,7 +13,7 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="container text-left mb-3">
-                    <a href="create-user" class="btn btn-primary btn-sm m-2"><i class="bi bi-plus-lg"></i> Add User</a><br>
+                    <a href="create-contact" class="btn btn-primary btn-sm m-2"><i class="bi bi-plus-lg"></i> Add Contact</a><br>
                 </div>
 				<table class="table">
 					<thead class="table-light">
@@ -26,16 +26,16 @@
 						</tr>
 					</thead>
 					<tbody>
-						<c:forEach items="${users}" var="m">
+						<c:forEach items="${contacts}" var="m">
 							<tr>
 								<th scope="row">${m.id}</th>
 								<td>${m.firstName}</td>
 								<td>${m.lastName}</td>
 								<td>${m.phone}</td>
 								<td>
-								    <a class="btn btn-warning btn-sm" href="update-user/${m.id}" role="button">Update</a>
+								    <a class="btn btn-warning btn-sm" href="update-contact/${m.id}" role="button">Update</a>
 								    &nbsp;&nbsp;
-								    <a class="btn btn-danger btn-sm" href="delete-user/${m.id}" role="button">Delete</a>
+								    <a class="btn btn-danger btn-sm" href="delete-contact/${m.id}" role="button">Delete</a>
 								</td>
 							</tr>
 						</c:forEach>
