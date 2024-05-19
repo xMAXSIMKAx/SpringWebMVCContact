@@ -1,0 +1,72 @@
+17-May-2024 20:08:16.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.8
+17-May-2024 20:08:16.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 14 2023 19:40:29 UTC
+17-May-2024 20:08:16.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.8.0
+17-May-2024 20:08:16.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+17-May-2024 20:08:16.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+17-May-2024 20:08:16.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+17-May-2024 20:08:16.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Lenovo\.jdks\openjdk-21.0.2
+17-May-2024 20:08:16.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            21.0.2+13-58
+17-May-2024 20:08:16.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-May-2024 20:08:16.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\_HIL\DEMO\Spring-Web-MVC-JSP\Catalina
+17-May-2024 20:08:16.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\_APPs\Tomcat\apache-tomcat-10.1.8
+17-May-2024 20:08:17.008 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-May-2024 20:08:17.008 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-May-2024 20:08:17.008 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+17-May-2024 20:08:17.008 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-May-2024 20:08:17.008 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-May-2024 20:08:17.008 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dvisualvm.id=93198604976600
+17-May-2024 20:08:17.008 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\_APPs\Tomcat\apache-tomcat-10.1.8
+17-May-2024 20:08:17.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\_HIL\DEMO\Spring-Web-MVC-JSP\Catalina
+17-May-2024 20:08:17.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\_HIL\DEMO\Spring-Web-MVC-JSP\Catalina\temp
+17-May-2024 20:08:17.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\_HIL\DEMO\Spring-Web-MVC-JSP\Catalina\conf\logging.properties
+17-May-2024 20:08:17.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-May-2024 20:08:17.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\lib\idea_rt.jar=61991:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\bin
+17-May-2024 20:08:17.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+17-May-2024 20:08:17.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+17-May-2024 20:08:17.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+17-May-2024 20:08:17.030 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+17-May-2024 20:08:17.050 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+17-May-2024 20:08:17.937 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-May-2024 20:08:17.960 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1319] milliseconds
+17-May-2024 20:08:18.036 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-May-2024 20:08:18.036 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.8]
+17-May-2024 20:08:18.051 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\_HIL\DEMO\Spring-Web-MVC-JSP\Catalina\conf\Catalina\localhost\ROOT.xml]
+17-May-2024 20:08:21.566 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-May-2024 20:08:21.796 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+17-May-2024 20:08:22.965 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.4.4.Final
+17-May-2024 20:08:23.168 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+17-May-2024 20:08:24.238 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+17-May-2024 20:08:26.677 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+17-May-2024 20:08:27.005 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 5207 ms
+17-May-2024 20:08:27.024 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+17-May-2024 20:08:27.284 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+17-May-2024 20:08:27.312 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+17-May-2024 20:08:27.415 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+17-May-2024 20:08:28.064 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 1039 ms
+17-May-2024 20:08:28.097 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\_HIL\DEMO\Spring-Web-MVC-JSP\Catalina\conf\Catalina\localhost\ROOT.xml] has finished in [10 038] ms
+17-May-2024 20:08:28.102 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-May-2024 20:08:28.127 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10166] milliseconds
+17-May-2024 20:15:10.427 WARNING [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping for GET /update-member/resources/icons/stack-of-books.png
+17-May-2024 20:15:10.448 WARNING [http-nio-8080-exec-2] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver.handleNoHandlerFoundException No endpoint GET /update-member/resources/icons/stack-of-books.png.
+17-May-2024 20:15:10.475 WARNING [http-nio-8080-exec-4] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping for GET /update-member/resources/icons/favicon.ico
+17-May-2024 20:15:10.477 WARNING [http-nio-8080-exec-4] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver.handleNoHandlerFoundException No endpoint GET /update-member/resources/icons/favicon.ico.
+17-May-2024 20:16:33.968 WARNING [http-nio-8080-exec-4] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping for GET /update-book/resources/icons/stack-of-books.png
+17-May-2024 20:16:33.970 WARNING [http-nio-8080-exec-4] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver.handleNoHandlerFoundException No endpoint GET /update-book/resources/icons/stack-of-books.png.
+17-May-2024 20:16:33.992 WARNING [http-nio-8080-exec-5] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping for GET /update-book/resources/icons/favicon.ico
+17-May-2024 20:16:33.992 WARNING [http-nio-8080-exec-5] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver.handleNoHandlerFoundException No endpoint GET /update-book/resources/icons/favicon.ico.
+17-May-2024 20:20:34.231 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-May-2024 20:20:34.234 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-May-2024 20:20:34.244 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+17-May-2024 20:20:34.245 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+17-May-2024 20:20:34.255 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-May-2024 20:20:34.266 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
